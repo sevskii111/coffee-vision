@@ -1,0 +1,120 @@
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-popup-content {
+  margin: -1px;
+  margin-left: -2px;
+  text-align: center;
+}
+
+.leaflet-popup-content img {
+  width: 300px;
+  border-radius: 12px 12px 0 0;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+.a9s-annotationlayer .a9s-annotation.c0 .a9s-inner {
+  stroke: #4D9DE0 !important;
+}
+
+.a9s-annotationlayer .a9s-annotation.c1 .a9s-inner {
+  stroke: #E15554 !important;
+}
+.a9s-annotationlayer .a9s-annotation.c2 .a9s-inner {
+  stroke: #E1BC29 !important;
+}
+.a9s-annotationlayer .a9s-annotation.c3 .a9s-inner {
+  stroke: #3BB273 !important;
+}
+.a9s-annotationlayer .a9s-annotation.c4 .a9s-inner {
+  stroke: #7768AE !important;
+}
+.a9s-annotationlayer .a9s-annotation.c5 .a9s-inner {
+  stroke: #FFACE4 !important;
+}
+.a9s-annotationlayer .a9s-annotation.c6 .a9s-inner {
+  stroke: #08605F !important;
+}
+.a9s-annotationlayer .a9s-annotation.c7 .a9s-inner {
+  stroke: #45F0DF !important;
+}
+.a9s-annotationlayer .a9s-annotation.c8 .a9s-inner {
+  stroke: #004777 !important;
+}
+.a9s-annotationlayer .a9s-annotation.c9 .a9s-inner {
+  stroke: #1C3144 !important;
+}
+
+.btn.btn-c0 {
+    border-top: solid #4D9DE0 10px;
+}
+
+.btn.btn-c1 {
+    border-top: solid #E15554 10px;
+}
+
+.btn.btn-c2 {
+    border-top: solid #E1BC29 10px;
+}
+
+.btn.btn-c3 {
+    border-top: solid #3BB273 10px;
+}
+
+.btn.btn-c4 {
+    border-top: solid #7768AE 10px;
+}
+
+.btn.btn-c5 {
+    border-top: solid #FFACE4 10px;
+}
+
+.btn.btn-c6 {
+    border-top: solid #08605F 10px;
+}
+
+.btn.btn-c7 {
+    border-top: solid #45F0DF 10px;
+}
+
+.btn.btn-c8 {
+    border-top: solid #004777 10px;
+}
+
+.btn.btn-c9 {
+    border-top: solid #1C3144 10px;
+}
+
+.bbox{
+  cursor: pointer;
+}
+
+.bbox-label {
+  margin-left: 2px;
+  margin-top: 5px;
+  line-height: 0;
+  transition: 0.1s;
+  font-weight: bolder;
+}
+
+.bbox .bbox-label{
+  pointer-events: none;
+  width: max-content;
+}
+
+.bbox:hover .bbox-label{
+  margin-top: -10px;
+}
+
+.bbox:hover .bbox-label[hidden]{
+  display: block !important;
+}
+
+.rc-slider-tooltip{
+  margin-right: -100px;
+}
